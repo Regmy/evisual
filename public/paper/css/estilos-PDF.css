@@ -1,0 +1,183 @@
+body {
+    font-family: helvetica;
+    font-weight: bold;
+    /* color: #75727f;
+    font-size: 12px; */
+}
+
+table.bordes {
+    border: 1px solid #67759C;
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+    /* width: -webkit-fill-available; */
+}
+
+table.bordes td,
+table.bordes th {
+    text-align: left;
+    border: 1px solid #67759C;
+    height: 20px;
+}
+
+table.bordes2 td,
+table.bordes2 th {
+    text-align: center;
+    border: 1px solid #98D259;
+    height: 20px;
+}
+
+table.bordes3 {
+    border: 1px solid #d1d1d1;
+    margin: auto;
+    border-collapse: collapse;
+    /* width: -webkit-fill-available; */
+}
+
+table.bordes3 td,
+table.bordes3 th {
+    text-align: left;
+    border: 1px solid #d1d1d1;
+    height: 20px;
+}
+
+.boton {
+    font-size: 10px;
+    font-family: Verdana, Helvetica;
+    font-weight: bold;
+    color: white;
+    background: #638cb5;
+    border: 0px;
+    width: 80px;
+    height: 19px;
+}
+
+.ancho {
+    width: 75px
+}
+
+.ancho2 {
+    max-width: 85px
+}
+
+.ancho3 {
+    width: 85px
+}
+.ancho4 {
+    max-width: 85px
+}
+
+td.titulo {
+    font-weight: 700;
+    background: #E8E8E8;
+    font-size: 12px;
+    padding-left: 5px
+}
+
+td.variable {
+    font-weight: 700;
+    background: rgb(255, 255, 255);
+    font-size: 12px;
+    padding-left: 1px
+}
+
+.superponer {
+    position: absolute;
+    /* z-index: 2; */
+    top: 42em;
+    left: 85em;
+    border: none;
+}
+
+.altura2 {
+    height: 3rem !important;
+}
+
+.superponer2 {
+    position: absolute;
+    /* z-index: 2; */
+    top: 50em;
+    left: 85em;
+    border: none;
+}
+
+td.valores {
+    text-align: right !important;
+    font-weight: bold;
+}
+
+th,
+td {
+    /* text-align: left;
+    border: 1px solid #67759C; */
+}
+
+tr:nth-child(even) {
+    /*   background-color: #f2f2f2 */
+}
+
+tr.top {
+    /*    background-color: #3ab12c;
+    color: white;
+    font-weight: bold;
+    font-size: 11px; */
+}
+
+th.top {
+    /*   padding: 7px;
+    font-size: 12px; */
+}
+
+td.modificar {
+    /*     background-color: #57ca4a9c;
+    width: 300px */
+}
+
+input.orden {
+    /*   width: 50px; */
+}
+
+td.edicion {
+    /* width: 22%; */
+}
+
+table.menu {
+    /* font-weight: bold; */
+}
+
+a {
+    /*   color: #3ab12c */
+}
+
+input {
+    /*     padding: 5px; */
+}
+
+.verticalText {
+    /*  writing-mode: vertical-lr;
+    transform: rotate(270deg);
+    font-weight: bold; */
+}
+
+input.cincuenta {
+    /*    width: 50%; */
+}
+
+td.fondoverde {
+    /*  background: #ddffd6b8; */
+}
+
+select.orden {
+    /*    padding: 5px; */
+}
+
+input.graba_fact {
+    /*     text-align: right;
+    border: none;
+    font-weight: bold; */
+}
+
+td.valores {
+    /*   text-align: right;
+    font-weight: bold; */
+}

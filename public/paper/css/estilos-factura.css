@@ -1,0 +1,96 @@
+body {
+    font-family: helvetica;
+    font-weight: bold;
+    color: #75727f;
+    font-size: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+table.bordes td,
+table.bordes th {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+tr.top {
+    background-color: #3ab12c;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+th.top {
+    padding: 7px;
+    font-size: 12px;
+}
+
+td.modificar {
+    background-color: #57ca4a9c;
+    width: 300px
+}
+
+input.orden {
+    width: 50px;
+}
+
+td.edicion {
+    width: 22%;
+}
+
+table.menu {
+    font-weight: bold;
+}
+
+a {
+    color: #3ab12c
+}
+
+input {
+    padding: 5px;
+}
+
+.verticalText {
+    writing-mode: vertical-lr;
+    transform: rotate(270deg);
+    font-weight: bold;
+}
+
+input.cincuenta {
+    width: 50%;
+}
+
+td.fondoverde {
+    background: #ddffd6b8;
+}
+
+select.orden {
+    padding: 5px;
+}
+
+input.graba_fact {
+    text-align: right;
+    border: none;
+    font-weight: bold;
+}
+
+td.valores {
+    text-align: right;
+    font-weight: bold;
+}
